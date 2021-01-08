@@ -7,15 +7,24 @@
   pricing_note: Quote
   footnotes: "[^airtable-price]: $60 per user per month, minimum of $3000 per month."
   updated_at: 2019-10-19
+  
+- name: Atlassian (Confluence Cloud)
+  url: https://www.atlassian.com
+  base_pricing: $5 per u/m
+  sso_pricing: $8 per u/m[^jira-price]
+  footnotes: "[^jira-price]: Hard to compare since one Access SSO license covers all Atlassian products, so should get cheaper per seat as more products are used - but that doesn't help people only using Jira or Confluence. (Jira and Confluence were chosen as probably the most common standalone Atlassian products.)"
+  percent_increase: 60%
+  pricing_source: https://www.atlassian.com/software/confluence/pricing
+  updated_at: 2020-01-08
 
 - name: Atlassian (Jira Cloud)
   url: https://www.atlassian.com
   base_pricing: $7 per u/m
   sso_pricing: $10 per u/m[^jira-price]
-  footnotes: "[^jira-price]: Hard to compare since Access seems to cover all Atlassian products, so should get cheaper per seat as more products are used - but that doesn't help people only using Jira. (Jira was chosen as probably the most common Atlassian product.)"
+  footnotes: "[^jira-price]: HHard to compare since one Access SSO license covers all Atlassian products, so should get cheaper per seat as more products are used - but that doesn't help people only using Jira or Confluence. (Jira and Confluence were chosen as probably the most common standalone Atlassian products.)"
   percent_increase: 42%
   pricing_source: https://www.atlassian.com/software/jira/pricing
-  updated_at: 2018-10-22
+  updated_at: 2020-01-08
 
 - name: Bitrise
   url: https://www.bitrise.io
